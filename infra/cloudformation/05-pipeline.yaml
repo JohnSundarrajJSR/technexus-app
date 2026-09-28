@@ -39,7 +39,7 @@ Resources:
   ArtifactBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub technexus-pipeline-artifacts-${AWS::AccountId}
+      BucketName: !Sub technexus-pipeline-artifacts-${AWS::AccountId}-demo
       VersioningConfiguration:
         Status: Enabled
 
