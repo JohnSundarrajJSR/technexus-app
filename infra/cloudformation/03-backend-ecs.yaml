@@ -30,6 +30,7 @@ Parameters:
   AzureOpenAiSecretArn:
     Type: String
     Description: ARN of the Secrets Manager secret holding AZURE_OPENAI_API_KEY
+    Default: arn:aws:secretsmanager:ap-southeast-1:189065796205:secret:technexus/dev/anthropic-api-key-UDtdRu
 
   AzureOpenAiEndpoint:
     Type: String
