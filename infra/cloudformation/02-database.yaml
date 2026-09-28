@@ -58,7 +58,7 @@ Resources:
     Properties:
       DBInstanceIdentifier: !Sub technexus-${EnvironmentName}
       Engine: postgres
-      EngineVersion: '16.4'
+      EngineVersion: '16.11'
       DBInstanceClass: !Ref DBInstanceClass
       AllocatedStorage: !Ref DBAllocatedStorage
       DBName: !Ref DBName
